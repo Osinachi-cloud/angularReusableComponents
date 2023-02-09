@@ -5,18 +5,28 @@ import { AppComponent } from './app.component';
 import { AuthFormComponent } from './components/auth-form/auth-form.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import {HttpClientModule} from '@angular/common/http';
+import { SidenavComponent } from './components/sidenav/sidenav.component'; 
+import { SublevelMenuComponent } from './components/sidenav/sublevel-menu.component';
+import { BodyComponent } from './components/body/body.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    AuthFormComponent
+    AuthFormComponent,
+    SidenavComponent,
+    SublevelMenuComponent,
+    BodyComponent
   ],
   imports: [
-    BrowserModule,
+  BrowserModule,
     AppRoutingModule,
     FormsModule,
     ReactiveFormsModule,
-    HttpClientModule
+    HttpClientModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -9,6 +9,7 @@ import { SidenavComponent } from './components/sidenav/sidenav.component';
 import { SublevelMenuComponent } from './components/sidenav/sublevel-menu.component';
 import { BodyComponent } from './components/body/body.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { TableComponent } from './components/table/table.component';
 
 
 
@@ -18,7 +19,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     AuthFormComponent,
     SidenavComponent,
     SublevelMenuComponent,
-    BodyComponent
+    BodyComponent,
+    TableComponent
   ],
   imports: [
   BrowserModule,
